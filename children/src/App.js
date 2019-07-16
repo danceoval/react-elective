@@ -30,23 +30,23 @@ class Emoji extends Component {
       <div>
         <div className="emoji">
             {Children.toArray(children)[this.state.current]}
-            {/*children*/}
         </div>
         <h3>Total Children: { Children.count(this.props.children) }</h3>
+        {children}
       </div>
     )
   }
 }
 
+const owls = ['(*^▽^*)','( ﾟ∀ ﾟ)','ɾ⚈▿⚈ɹ','(≧∇≦*)', '≧(´▽｀)≦']
+const punctuation = [':=)', ':-9', ';-(']
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Emoji>
-          <h1>:-)</h1>
-          <h1>:-0</h1>
-          <h1>;-p</h1>
+          {[...punctuation]}
         </Emoji>
       </div>
     );
