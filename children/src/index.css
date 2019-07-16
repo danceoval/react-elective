@@ -1,0 +1,14 @@
+body {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+
+.emoji {
+  height: 250px;
+  width: 250px;
+  border-radius: 500px;
+  border: 1px solid pink;
+  background-color: yellow;
+  text-align: center;
+  font-size: 50px;
+}
