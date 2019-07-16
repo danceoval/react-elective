@@ -8,10 +8,10 @@ body {
   width: 200px;
   border-radius: 100px;
   border: 1px solid pink;
-  background-color: rosybrown;
-  color: blanchedalmond;
   text-align: center;
   font-size: 50px;
   box-sizing: border-box;
   padding-top: 30px;
+  background-color: rosybrown;
+  color: blanchedalmond;
 }
